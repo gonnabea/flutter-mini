@@ -29,6 +29,12 @@
             "deviceId": "chrome",
             "request": "launch",
             "type": "dart"
-        }
+        },
+        {
+            "name": "Flutter",
+            "program": "lib/stateful_widget.dart",
+            "request": "launch",
+            "type": "dart"
+        },
     ]
 }
