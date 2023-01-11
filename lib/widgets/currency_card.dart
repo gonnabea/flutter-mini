@@ -6,8 +6,6 @@ class CurrencyCard extends StatelessWidget {
   final bool isInverted;
   final List<double> offset;
 
-  final _blackColor = const Color(0xFF1F2123);
-
   const CurrencyCard({
     super.key,
     required this.name,
@@ -17,6 +15,8 @@ class CurrencyCard extends StatelessWidget {
     required this.isInverted,
     required this.offset,
   });
+
+  final _blackColor = const Color(0xFF1F2123);
 
   @override
   Widget build(BuildContext context) {
